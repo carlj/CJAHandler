@@ -22,9 +22,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [button setTitle:@"Example Property Handler" forState:UIControlStateNormal];
-    button.frame = CGRectMake(10, 10, 100, 100);
+    button.frame = CGRectMake(10, 10, 200, 100);
     [self.view addSubview:button];
     
     self.button = button;

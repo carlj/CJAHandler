@@ -16,6 +16,7 @@
 		FAA09B1F1A5D72C0002CE923 /* CJAHandlerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA09B1E1A5D72C0002CE923 /* CJAHandlerManager.m */; };
 		FAA09B221A5D72CE002CE923 /* CJAHandlerPropertyBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA09B211A5D72CE002CE923 /* CJAHandlerPropertyBase.m */; };
 		FAA09B261A5D7439002CE923 /* CJAExamplePropertyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA09B251A5D7439002CE923 /* CJAExamplePropertyHandler.m */; };
+		FAA09B281A5D78A4002CE923 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA09B271A5D78A4002CE923 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		FAA09B211A5D72CE002CE923 /* CJAHandlerPropertyBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJAHandlerPropertyBase.m; sourceTree = "<group>"; };
 		FAA09B241A5D7439002CE923 /* CJAExamplePropertyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJAExamplePropertyHandler.h; path = Example/Classes/Handler/CJAExamplePropertyHandler.h; sourceTree = "<group>"; };
 		FAA09B251A5D7439002CE923 /* CJAExamplePropertyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJAExamplePropertyHandler.m; path = Example/Classes/Handler/CJAExamplePropertyHandler.m; sourceTree = "<group>"; };
+		FAA09B271A5D78A4002CE923 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = Example/Ressources/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				FAA09B101A5D71FE002CE923 /* Images.xcassets */,
+				FAA09B271A5D78A4002CE923 /* LaunchScreen.xib */,
 			);
 			name = Ressources;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA09B281A5D78A4002CE923 /* LaunchScreen.xib in Resources */,
 				FAA09B111A5D71FE002CE923 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
