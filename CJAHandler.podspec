@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
 
- s.name         = "CJAMacros"
- s.version      = "2.1.1"
+ s.name         = "CJAHandler"
+ s.version      = "0.1.0"
  s.platform     = :ios, "6.0"
- s.summary      = "Macro collection for daily usage"
- s.homepage     = "https://github.com/carlj/CJAMacros"
+ s.summary      = "Handler Pattern implementation for objC"
+ s.homepage     = "https://github.com/carlj/CJAHandler"
  s.authors      = { "Carl Jahn" => "jahncarl@gmail.com" }
- s.source       = { :git  => "https://github.com/carlj/CJAMacros.git", :tag => s.version.to_s }
- s.source_files = "CJAMacros/*.{h,m}"
+ s.source       = { :git  => "https://github.com/carlj/CJAHandler.git", :tag => s.version.to_s }
+ s.source_files = "CJAHandler/*.{h,m}"
  s.requires_arc = true
  s.license      = { :type => "MIT",
                     :text => %Q|Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
